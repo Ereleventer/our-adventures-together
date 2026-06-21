@@ -356,6 +356,10 @@ h1, h2, h3, h4 {
   background-image: url('images/korea-hero.jpg');
 }
 
+.trip-hero--philippines {
+  background-image: url('images/philippines-hero.jpg');
+}
+
 .trip-hero__overlay {
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(50,40,40,0.30) 0%, rgba(50,40,40,0.55) 100%);
@@ -504,6 +508,29 @@ h1, h2, h3, h4 {
 }
 
 .highlight-box p { color: #fff; opacity: 0.95; }
+
+.highlight-box .bullet--light {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.highlight-box .bullet--light li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.highlight-box .bullet--light li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: #fff;
+  font-size: 0.9rem;
+  top: 2px;
+  opacity: 0.85;
+}
 
 /* Place sections */
 .place__header {

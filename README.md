@@ -9,6 +9,7 @@ Built with pure HTML and CSS. No frameworks, no JavaScript. Ready to deploy on G
 - **Home page** (`index.html`) — hero, trip cards, personal letter
 - **Italy & Switzerland page** (`italy.html`) — full write-up of the May 2026 trip
 - **Korea page** (`korea.html`) — full write-up of the Sep–Oct 2025 trip
+- **Philippines page** (`philippines.html`) — almost a month of island-hopping (post-army trip)
 - Photo galleries on each trip page with hover effects
 - Fully responsive (desktop, tablet, mobile)
 
@@ -16,10 +17,11 @@ Built with pure HTML and CSS. No frameworks, no JavaScript. Ready to deploy on G
 
 ```
 our-adventures-together/
-├── index.html       # Home
-├── italy.html       # Italy & Switzerland trip
-├── korea.html       # South Korea trip
-├── styles.css       # Shared styles
+├── index.html         # Home
+├── italy.html         # Italy & Switzerland trip
+├── korea.html         # South Korea trip
+├── philippines.html   # Philippines trip
+├── styles.css         # Shared styles
 ├── images/          # Location-specific photos
 │   ├── home-hero.jpg
 │   ├── italy-hero.jpg, lake-garda.jpg, riva-del-garda.jpg, ...
